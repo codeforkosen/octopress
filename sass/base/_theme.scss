@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: $body-bgColor;
+  font-family: $fontFamily-base;
+  font-size: $fontSize-base;
+  color: $body-fontColor;
+}
+
+a:hover {
+  border-bottom:1px solid #bf0222;
+}

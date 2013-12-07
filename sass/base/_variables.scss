@@ -1,0 +1,57 @@
+//
+// Variables
+// --------------------------------------------------
+
+// ----- Brand Colors ----- //
+
+$brand-darker:		#1F9ADA !default;
+$brand-dark: 			#4BA9DA !default;
+$brand: 		 			#77B8DA !default;
+
+
+// ----- Grays ----- //
+
+$gray-darker:		 #333 !default;
+$gray-dark: 		 #999 !default;
+$gray:					 #ccc !default;
+$gray-light:		 #ddd !default;
+$gray-lighter:	 #fff !default;
+
+
+// ----- Scaffolding ----- //
+
+$body-bgColor:			#fff;
+$body-maxWidth: 		960px;
+$body-fontColor:		$gray-darker;
+
+
+// ----- Typography ----- //
+
+$fontFamily-sans-serif:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$fontFamily-serif:       Georgia, "Times New Roman", Times, serif;
+$fontFamily-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$fontFamily-base:        $fontFamily-sans-serif;
+
+$fontSize-base:					14px;
+$fontSize-smaller:			ceil($fontSize-base * 0.70); //=> 10px
+$fontSize-small:				ceil($fontSize-base * 0.80); //=> 12px
+$fontSize-large:				ceil($fontSize-base * 1.15); //=> 16px
+$fontSize-larger:				ceil($fontSize-base * 1.25); //=> 18px
+$fontSize-huge:					ceil($fontSize-base * 1.40); //=> 20px
+
+
+// ----- Header ----- //
+
+$top-header-bgColor:		$brand;
+$top-header-fontColor:	#fff;
+
+
+// ----- hx ----- //
+
+$fontColor-h1: $brand-dark;
+$fontSize-h1: $fontSize-huge;
+
+
+// -----  ----- //
+
+// -----  ----- //
