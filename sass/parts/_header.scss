@@ -89,7 +89,6 @@ header.default-header {
         margin: 0;
         background-image: image-url("gnav/gnav-title-sp.png");
         background-size: 150px 30px;
-        border-bottom: 1px solid $brand-lighter;
         a {
           width: 160px;
           margin: 0 auto;
@@ -109,10 +108,15 @@ header.default-header {
         background-position: center;
       }
       ul {
-        display: fixed;
+        // TODO: jsでdrawerMenuの表示／非表示を制御
+        display: none;
+        position: fixed;
+        z-index: 7;
+        top: 40px;
         width: 70%;
         height: 100%;
         background-color: $gnav-bgColor;
+        border-top: 1px solid $brand-lighter;
         li {
           border-bottom: 1px solid $brand-lighter;
           float: none;
