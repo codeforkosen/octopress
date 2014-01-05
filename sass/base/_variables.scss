@@ -4,25 +4,26 @@
 
 // ----- Brand Colors ----- //
 
-$brand-darker:		#1F9ADA !default;
-$brand-dark: 			#4BA9DA !default;
-$brand: 		 			#77B8DA !default;
+$brand-darker:    #219BDA !default;
+$brand-dark:      #4CA9DA !default;
+$brand:           #77B8DA !default;
+$brand-light:     #A4D5EA !default;
+$brand-lighter:   #E1F1F8 !default;
 
 
 // ----- Grays ----- //
 
-$gray-darker:		 #333 !default;
-$gray-dark: 		 #999 !default;
-$gray:					 #ccc !default;
-$gray-light:		 #ddd !default;
-$gray-lighter:	 #fff !default;
+$gray-darker:    #333 !default;
+$gray-dark:      #999 !default;
+$gray:           #ccc !default;
+$gray-light:     #ddd !default;
 
 
 // ----- Scaffolding ----- //
 
-$body-bgColor:			#fff;
-$body-maxWidth: 		960px;
-$body-fontColor:		$gray-darker;
+$body-bgColor:      #fff;
+$body-maxWidth:     960px;
+$body-fontColor:    $gray-darker;
 
 
 // ----- Typography ----- //
@@ -32,26 +33,36 @@ $fontFamily-serif:       Georgia, "Times New Roman", Times, serif;
 $fontFamily-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 $fontFamily-base:        $fontFamily-sans-serif;
 
-$fontSize-base:					14px;
-$fontSize-smaller:			ceil($fontSize-base * 0.70); //=> 10px
-$fontSize-small:				ceil($fontSize-base * 0.80); //=> 12px
-$fontSize-large:				ceil($fontSize-base * 1.15); //=> 16px
-$fontSize-larger:				ceil($fontSize-base * 1.25); //=> 18px
-$fontSize-huge:					ceil($fontSize-base * 1.40); //=> 20px
+$fontSize-base:          14px;
+$fontSize-smaller:       ceil($fontSize-base * 0.70); //=> 10px
+$fontSize-small:         ceil($fontSize-base * 0.80); //=> 12px
+$fontSize-large:         ceil($fontSize-base * 1.15); //=> 16px
+$fontSize-larger:        ceil($fontSize-base * 1.25); //=> 18px
+$fontSize-huge:          ceil($fontSize-base * 1.40); //=> 20px
 
 
 // ----- Header ----- //
 
-$top-header-bgColor:		$brand;
-$top-header-fontColor:	#fff;
+$gnav-bgColor:          white;
+$gnav-bgColor-hover:    $brand-lighter;
+$gnav-fontColor:        $brand-dark;
+
+$top-header-bgColor:    $brand;
+$top-header-fontColor:  #fff;
 
 
 // ----- hx ----- //
 
 $fontColor-h1: $brand-dark;
-$fontSize-h1: $fontSize-huge;
+$fontSize-h1:  $fontSize-huge;
 
 
-// -----  ----- //
+$outline-bgColor:   $brand-lighter;
+
+
+// ----- Footer ----- //
+
+$footer-bgColor:      $brand;
+$footer-fontColor:    white;
 
 // -----  ----- //
