@@ -1,3 +1,14 @@
+section.header-visual {
+  h1.top-title {
+    width: 100%;
+    height: 320px;
+    background-image: image-url("header/logo.png");
+    background-size: 460px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    span { display: none; }
+  }
+}
 article.c4k-outline {
   background: $outline-bgColor;
   div.article-wrap {
