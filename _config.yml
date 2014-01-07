@@ -5,7 +5,7 @@
 url: http://codeforkosen.org
 title: Code for KOSEN
 subtitle: Create our KOSEN by ourselves
-author: Akashi National College of Technology
+author: "Code for KOSEN - Branch: Akashi"
 simple_search: http://google.com/search
 description: Code for KOSEN は、高専生活における「こうしたい！」を高専生が IT と デザイン の力で実現していくための組織です。
 
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:year-:month-:day/:title
 source: source
 destination: public
 plugins: plugins

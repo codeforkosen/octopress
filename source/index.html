@@ -6,18 +6,17 @@ layout: default
 </section>
 <article class="post-list clearfix">
 <div class="article-wrap">
-{% for post in site.posts reverse %}
+{% for i in (0..3) %}
+  {% if site.posts[i] %}
   <section>
-    <a href="{{ root_url }}{{ post.url }}">
-      <img src="assets/images/theme/post/opendata/test-img.png">
-      <h1>{{post.title}}</h1>
-      <span class="date">{{ post.date | date: "%b %e" }}</span>
-      <span class="tags">{% include post/categories.html %}</span>
-      <p>
-        {{ post.content | truncate:100 }}
-      </p>
+    <a href="{{ root_url }}{{ site.posts[i].url }}">
+      <img src="assets/images{{ site.posts[i].url }}.png">
+      <h1>{{ site.posts[i].title }}</h1>
+      <span class="date">{{ site.posts[i].date | date: "%d %B %Y" }}</span>
+      <p>{{ site.posts[i].content | truncate:100 }}</p>
     </a>
   </section>
+  {% endif %}
 {% endfor %}
 </div>
 </article>
