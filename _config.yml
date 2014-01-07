@@ -58,6 +58,16 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # post_asides:
 # page_asides:
 
+image:
+  source: assets/images/
+  output: generated
+  presets:
+    member:
+      attr:
+        class: member-img
+      width: 120
+      height: 120
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #

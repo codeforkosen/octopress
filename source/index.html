@@ -6,59 +6,40 @@ layout: default
 </section>
 <article class="post-list clearfix">
 <div class="article-wrap">
+{% for post in site.posts reverse %}
   <section>
-    <img src="images/post/opendata/test-img.png">
-    <h1>時間割データを公開しました</h1>
-    <p>
-      明石高専の時間割およびシラバスのデータを、2014年1月7日公開しました。
-      これに伴い、単位これくしょん〜単これ〜を Linked Open Data Challenge 2014 に応募しました。
-    </p>
+    <a href="{{ root_url }}{{ post.url }}">
+      <img src="assets/images/theme/post/opendata/test-img.png">
+      <h1>{{post.title}}</h1>
+      <span class="date">{{ post.date | date: "%b %e" }}</span>
+      <span class="tags">{% include post/categories.html %}</span>
+      <p>
+        {{ post.content | truncate:100 }}
+      </p>
+    </a>
   </section>
-  <section>
-    <img src="images/post/opendata/test-img.png">
-    <h1>時間割データを公開しました</h1>
-    <p>
-      明石高専の時間割およびシラバスのデータを、2014年1月7日公開しました。
-      これに伴い、単位これくしょん〜単これ〜を Linked Open Data Challenge 2014 に応募しました。
-    </p>
-  </section>
-  <section>
-    <img src="images/post/opendata/test-img.png">
-    <h1>時間割データを公開しました</h1>
-    <p>
-      明石高専の時間割およびシラバスのデータを、2014年1月7日公開しました。
-      これに伴い、単位これくしょん〜単これ〜を Linked Open Data Challenge 2014 に応募しました。
-    </p>
-  </section>
-  <section>
-    <img src="images/post/opendata/test-img.png">
-    <h1>時間割データを公開しました</h1>
-    <p>
-      明石高専の時間割およびシラバスのデータを、2014年1月7日公開しました。
-      これに伴い、単位これくしょん〜単これ〜を Linked Open Data Challenge 2014 に応募しました。
-    </p>
-  </section>
+{% endfor %}
 </div>
 </article>
 <article class="c4k-outline clearfix">
 <div class="article-wrap">
   <section>
-		<img src="images/top/outline-kosen.png">
+		<img src="assets/images/theme/top/outline-kosen.png">
 		<h1>コードで、高専を変える</h1>
 		<p>
 			Code for KOSENは、 高専生活における「こうしたい！」を高専生が IT と デザイン の力で実現していくための組織です。
 		</p>
 	</section>
 	<section>
-		<img src="images/top/outline-node.png">
+		<img src="assets/images/theme/top/outline-node.png">
 		<h1>コードで、高専を繋ぐ</h1>
 		<p>
 			高専の抱える問題の多くは「共通」したものが多いでしょう。
-			Code for KOSENでは、高専間で抱える問題を共有することが、 解決への糸口であると考えています。
+			Code for KOSENでは、高専間で抱える課題をオープンにし共有することが、 解決への糸口であると考えています。
 		</p>
 	</section>
 	<section>
-		<img src="images/top/outline-smile.png">
+		<img src="assets/images/theme/top/outline-smile.png">
 		<h1>コードで、高専を楽しもう</h1>
 		<p>
 			「ものづくり」を純粋に楽しみたい。

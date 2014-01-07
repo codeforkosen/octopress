@@ -11,7 +11,7 @@ header.site-header {
       width: 100%;
       max-width: 960px;
     }
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 640px){
       width: 100%;
     }
     nav.gnav {
@@ -118,7 +118,6 @@ header.site-header {
           background-position: center;
         }
         ul {
-          // TODO: jsでdrawerMenuの表示／非表示を制御
           display: none;
           position: fixed;
           z-index: 7;

@@ -1,0 +1,8 @@
+---
+layout: post
+title: "test-post2"
+date: 2014-01-07 16:35:42 +0900
+comments: true
+categories: 
+---
+てすと２だよー

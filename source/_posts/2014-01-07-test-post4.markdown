@@ -1,0 +1,8 @@
+---
+layout: post
+title: "test-post4"
+date: 2014-01-07 16:35:48 +0900
+comments: true
+categories: 
+---
+てすと４のほんぶんりょういきだよ

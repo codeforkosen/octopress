@@ -14,21 +14,23 @@ $brand-lighter:   #E1F1F8 !default;
 // ----- Grays ----- //
 
 $gray-darker:    #333 !default;
-$gray-dark:      #999 !default;
-$gray:           #ccc !default;
-$gray-light:     #ddd !default;
+$gray-dark:      #666 !default;
+$gray:           #999 !default;
+$gray-light:     #ccc !default;
+$gray-lighter:   #ddd !default;
 
 
 // ----- Scaffolding ----- //
 
 $body-bgColor:      #fff;
 $body-maxWidth:     960px;
-$body-fontColor:    $gray-darker;
+$body-fontColor:    $gray-dark;
 
 
 // ----- Typography ----- //
 
-$fontFamily-sans-serif:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+//$fontFamily-sans-serif:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$fontFamily-sans-serif:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "メイリオ", Meiryo,  "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 $fontFamily-serif:       Georgia, "Times New Roman", Times, serif;
 $fontFamily-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 $fontFamily-base:        $fontFamily-sans-serif;
@@ -39,6 +41,7 @@ $fontSize-small:         ceil($fontSize-base * 0.80); //=> 12px
 $fontSize-large:         ceil($fontSize-base * 1.15); //=> 16px
 $fontSize-larger:        ceil($fontSize-base * 1.25); //=> 18px
 $fontSize-huge:          ceil($fontSize-base * 1.40); //=> 20px
+$fontSize-huger:         ceil($fontSize-base * 1.70); //=> 24px
 
 
 // ----- Header ----- //

@@ -11,10 +11,14 @@ div.main {
       width: 100%;
       max-width: 960px;
       height: 50px;
+      margin: 0 auto;
+      padding: 50px 0;
+      text-align: center;
       span {
         display: block;
         padding: 10px;
-        font-size: $fontSize-huge;
+        font-size: $fontSize-huger;
+        font-family: $fontFamily-sans-serif;
       }
     }
     &:after {
@@ -41,7 +45,7 @@ div.main {
         width: 100%;
         max-width: 960px;
       }
-      @media screen and (max-width: 600px){
+      @media screen and (max-width: 640px){
         width: 100%;
       }
     }

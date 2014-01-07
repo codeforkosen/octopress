@@ -1,0 +1,42 @@
+div.main {
+  article.about {
+    section {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 10%;
+      max-width: 600px;
+      img {
+        &.logo {
+          display: block;
+          margin: 30px auto;
+        }
+      }
+      h1 {
+        padding: 20px 0 10px;
+        font-size: $fontSize-huge;
+        font-weight: bold;
+      }
+      p {
+        padding: 5px 0;
+        line-height: 24px;
+      }
+      ul {
+        padding: 20px;
+        li {
+          height: 90px;
+          img {
+            float: left;
+            width: 80px;
+          }
+          span {
+            display: inline-block;
+            height: 20px;
+            font-size: $fontSize-large;
+            color: $brand-dark;
+            padding: 30px;
+          }
+        }
+      }
+    }
+  }
+}
