@@ -5,9 +5,9 @@
 url: http://codeforkosen.org
 title: Code for KOSEN
 subtitle: Create our KOSEN by ourselves
-author: Akashi National College of Technology
+author: "Code for KOSEN - Branch: Akashi"
 simple_search: http://google.com/search
-description:
+description: Code for KOSEN は、高専生活における「こうしたい！」を高専生が IT と デザイン の力で実現していくための組織です。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:year-:month-:day/:title/
 source: source
 destination: public
 plugins: plugins
@@ -57,6 +57,16 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # blog_index_asides:
 # post_asides:
 # page_asides:
+
+image:
+  source: assets/images/
+  output: generated
+  presets:
+    member:
+      attr:
+        class: member-img
+      width: 120
+      height: 120
 
 # ----------------------- #
 #   3rd Party Settings    #

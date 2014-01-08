@@ -1,0 +1,50 @@
+div.main {
+  article.about {
+    section {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 10%;
+      width: 80%;
+      max-width: 600px;
+      img {
+        &.logo {
+          display: block;
+          width: 100%;
+          max-width: 460px;
+          margin: 30px auto;
+        }
+      }
+      h1 {
+        padding: 20px 0 10px;
+        font-size: $fontSize-huge;
+        font-weight: bold;
+      }
+      p {
+        padding: 5px 0;
+        line-height: 24px;
+      }
+      ul {
+        padding: 20px;
+        li {
+          height: 90px;
+          img {
+            float: left;
+            width: 30%;
+            max-width: 80px;
+          }
+          span {
+            float: left;
+            width: 60%;
+            height: 20px;
+            font-size: $fontSize-large;
+            color: $brand-dark;
+            padding: 30px 5%;
+            @media screen and (max-width: 640px){
+              padding: 15px 5%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

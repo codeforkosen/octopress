@@ -1,0 +1,72 @@
+div.main {
+  article.member {
+    section.branch {
+      padding: 30px 0;
+      > h1 {
+        width: 20%;
+        padding: 10px 5%;
+        float: left;
+        font-size: $fontSize-huger;
+        color: $brand-dark;
+        &:before {
+          content: "Branch: ";
+          font-size: $fontSize-base;
+        }
+      }
+      ul {
+        display: block;
+        margin: 0 0 0 30%;
+        text-align: center;
+        li {
+          display: inline-block;
+          width: 25%;
+          padding: 10px 1%;
+          img {
+            width: 100%;
+            max-width: 150px;
+            border: 1px solid $gray-light;
+          }
+          h2 {
+            span {
+              display: block;
+              font-size: $fontSize-small;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 640px){
+        > h1 {
+          float: none;
+          width: 100%;
+          padding: 10px 0;
+          text-align: center;
+        }
+        ul {
+          margin: 20px 0;
+        }
+      }
+      @media screen and (max-width: 480px){
+        ul {
+          li {
+            height: 100px;
+            width: 80%;
+            padding: 10px 10%;
+            img {
+              width: 100px;
+              float: left;
+            }
+            h2 {
+              margin: 0 0 0 130px;
+              padding: 20px 0 0;
+              text-align: left;
+              span {
+                font-size: $fontSize-small;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -59,6 +59,10 @@ caption, th{
   text-align: left;
 }
 
+a, a:hover, a:link {
+  text-decoration: none;
+  border: none !important;
+}
 a:focus {
   outline:none;
 }
@@ -81,6 +85,7 @@ a:focus {
   height: auto;
   overflow: hidden;
   /**/
+  border: none;
 }
 
 .both{

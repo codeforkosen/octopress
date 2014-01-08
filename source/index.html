@@ -1,31 +1,52 @@
 ---
 layout: default
 ---
-
+<section class="header-visual">
+  <h1 class="top-title"><span>{{ site.title }}</span></h1>
+</section>
+<article class="post-list clearfix">
+<div class="article-wrap">
+{% for i in (0..3) %}
+  {% if site.posts[i] %}
+  <a href="{{ root_url }}{{ site.posts[i].url }}">
+    <section>
+      <img src="assets/images{{ site.posts[i].url }}eyecatch.jpg">
+      <h1>{{ site.posts[i].title }}</h1>
+      <span class="date">{{ site.posts[i].date | date: "%d %B %Y" }}</span>
+      <p>{{ site.posts[i].content | truncate:100 }}</p>
+      <span class="read-more">続きを読む</span>
+    </section>
+  </a>
+  {% endif %}
+{% endfor %}
+</div>
+</article>
 <article class="c4k-outline clearfix">
-	<section>
-		<img src="images/top/outline-kosen.png">
+<div class="article-wrap">
+  <section>
+		<img src="assets/images/theme/top/outline-kosen.png">
 		<h1>コードで、高専を変える</h1>
 		<p>
 			Code for KOSENは、 高専生活における「こうしたい！」を高専生が IT と デザイン の力で実現していくための組織です。
 		</p>
 	</section>
 	<section>
-		<img src="images/top/outline-node.png">
+		<img src="assets/images/theme/top/outline-node.png">
 		<h1>コードで、高専を繋ぐ</h1>
 		<p>
 			高専の抱える問題の多くは「共通」したものが多いでしょう。
-			Code for KOSENでは、高専間で抱える問題を共有することが、 解決への糸口であると考えています。
+			Code for KOSENでは、高専間で抱える課題をオープンにし共有することが、 解決への糸口であると考えています。
 		</p>
 	</section>
 	<section>
-		<img src="images/top/outline-smile.png">
+		<img src="assets/images/theme/top/outline-smile.png">
 		<h1>コードで、高専を楽しもう</h1>
 		<p>
 			「ものづくり」を純粋に楽しみたい。
 			そんな高専生が全国にいるとしたら… ワクワクしませんか？ 小さなことからはじめましょう。それがあなたの Code for X です。
 		</p>
 	</section>
+</div>
 </article>
 
 
