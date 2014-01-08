@@ -10,6 +10,9 @@ body{
   color: $body-fontColor;
 }
 
+a {
+  color: $brand-darker;
+}
 a:hover {
-  border-bottom:1px solid #bf0222;
+  color: $brand;
 }

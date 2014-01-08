@@ -5,8 +5,38 @@ article.post {
     }
     div.entry-content {
       width: 90%;
-      padding: 20px 5%;
-      line-height: 28px;
+      margin: 0 auto;
+      padding: 10px 10%;
+      width: 80%;
+      max-width: 600px;
+      line-height: 26px;
+      img {
+        width: 100%;
+      }
+      p {
+        padding: 10px 0;
+      }
+      div.person {
+        padding: 30px 20px;
+        float: right;
+        &:before {
+          content: "記 : ";
+          float: left;
+          width: 40px;
+          line-height: 50px;
+        }
+        img {
+          width: 50px;
+          float: left;
+        }
+        h2 {
+          margin: 0 0 0 110px;
+          span {
+            font-size: $fontSize-small;
+            display: block;
+          }
+        }
+      }
     }
   }
 }

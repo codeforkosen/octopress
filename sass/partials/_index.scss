@@ -54,11 +54,19 @@ article.post-list {
     padding: 20px 0;
     section {
       float: left;
-      margin: 15px 0;
+      margin: 5px 0;
+      a {
+        display: block;
+        &:hover {
+          background: $gray-bright;
+        }
+      }
       img {
         width: 100%;
       }
       h1 {
+        padding: 5px 0;
+        line-height: $fontSize-large;
         font-size: $fontSize-large;
         color: $brand-darker;
       }
@@ -69,24 +77,32 @@ article.post-list {
       span {
         font-size: $fontSize-small;
         color: $gray;
+        &.read-more {
+          margin: 10px 0 0;
+          color: $brand-darker;
+          float: right;
+          &:after {
+            content: " ≫";
+          }
+        }
       }
     }
     @media screen and (min-width: 800px){
       section {
-        padding: 0 2%;
+        padding: 15px 2%;
         width: 21%;
       }
     }
     @media screen and (max-width: 800px){
       section {
-        padding: 0 5%;
+        padding: 15px 5%;
         width: 40%;
       }
     }
     @media screen and (max-width: 600px){
       @media screen and (min-width: 400px){
         section {
-          padding: 0 5%;
+          padding: 15px 5%;
           width: 90%;
           img {
             float: left;
