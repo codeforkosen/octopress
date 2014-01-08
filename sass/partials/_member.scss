@@ -45,6 +45,28 @@ div.main {
           margin: 20px 0;
         }
       }
+      @media screen and (max-width: 480px){
+        ul {
+          li {
+            height: 100px;
+            width: 80%;
+            padding: 10px 10%;
+            img {
+              width: 100px;
+              float: left;
+            }
+            h2 {
+              margin: 0 0 0 130px;
+              padding: 20px 0 0;
+              text-align: left;
+              span {
+                font-size: $fontSize-small;
+                display: block;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
