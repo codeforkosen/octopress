@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code for KOSEN 始動しました"
-date: 2014-01-08 20:46:27 +0900
+date: 2014-01-09 8:00:00 +0900
 comments: true
 categories: 
 ---
@@ -14,7 +14,7 @@ Code for KOSEN では、
 高専生活を「楽しく」変えていきたい！
 そんな思いを持って、様々な取り組みに挑戦していきます。
 
-![Code for KOSEN - Branch: Akashi メンバー](/assets/images/blog/2014-01-08/hello-world/eyecatch.jpg)
+![Code for KOSEN - Branch: Akashi メンバー](/assets/images/blog/2014-01-09/hello-world/eyecatch.jpg)
 
 私たち Code for KOSEN は、
 兵庫県の ["明石高専（ANCT）"](http://www.akashi.ac.jp) を拠点とし、 

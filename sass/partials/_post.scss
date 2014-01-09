@@ -9,7 +9,7 @@ article.post {
       padding: 10px 10%;
       width: 80%;
       max-width: 600px;
-      line-height: 26px;
+      line-height: 1.8;
       img {
         width: 100%;
       }
@@ -30,7 +30,9 @@ article.post {
           float: left;
         }
         h2 {
-          margin: 0 0 0 110px;
+          margin: 10px 0 0 110px;
+          font-size: $fontSize-normal;
+          line-height: 1.5;
           span {
             font-size: $fontSize-small;
             display: block;

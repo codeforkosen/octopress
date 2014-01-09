@@ -6,11 +6,11 @@ div.main {
         width: 30%;
         padding: 10px 5%;
         float: left;
-        font-size: $fontSize-huger;
+        font-size: $fontSize-huge;
         color: $brand-dark;
         &:before {
           content: "Branch: ";
-          font-size: $fontSize-base;
+          font-size: $fontSize-normal;
         }
       }
       ul {
@@ -27,9 +27,10 @@ div.main {
             border: 1px solid $gray-light;
           }
           h2 {
+            font-size: $fontSize-large;
             span {
               display: block;
-              font-size: $fontSize-small;
+              font-size: $fontSize-normal;
             }
           }
         }

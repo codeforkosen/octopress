@@ -4,8 +4,8 @@ layout: default
 <section class="header-visual">
   <h1 class="top-title"><span>{{ site.title }}</span></h1>
 </section>
-<article class="post-list clearfix">
-<div class="article-wrap">
+<article class="post-list">
+<div class="article-wrap clearfix">
 {% for i in (0..3) %}
   {% if site.posts[i] %}
   <a href="{{ root_url }}{{ site.posts[i].url }}">
@@ -13,7 +13,7 @@ layout: default
       <img src="assets/images{{ site.posts[i].url }}eyecatch.jpg">
       <h1>{{ site.posts[i].title }}</h1>
       <span class="date">{{ site.posts[i].date | date: "%d %B %Y" }}</span>
-      <p>{{ site.posts[i].content | truncate:100 }}</p>
+      <p>{{ site.posts[i].content | truncate:150 }}</p>
       <span class="read-more">続きを読む</span>
     </section>
   </a>
