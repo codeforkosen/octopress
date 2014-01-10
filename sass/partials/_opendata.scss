@@ -1,0 +1,47 @@
+div.main {
+  article.opendata {
+    section {
+      padding: 30px 0;
+      ul {
+        display: block;
+        margin: 0;
+        li {
+          display: inline-block;
+          width: 100%;
+          padding: 10px 0;
+          img {
+            width: 30%;
+            max-width: 150px;
+            float: left;
+            border: 1px solid $gray-light;
+          }
+          div.opendata-info {
+            margin: 0 0 0 180px;
+            @media screen and (max-width: 640px){
+              margin: 0 0 0 35%;
+            }
+            h2 {
+
+              font-size: $fontSize-large;
+              span {
+                display: block;
+                font-size: $fontSize-normal;
+              }
+            }
+            p {
+              padding: 10px 0;
+              font-size: $fontSize-normal;
+            }
+            a {
+              font-size: $fontSize-normal;
+              color: $brand-dark;
+              &:before {
+                content: "[Data URL] ";
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
