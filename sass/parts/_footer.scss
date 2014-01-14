@@ -1,7 +1,7 @@
 footer.site-footer {
   width: 100%;
-  height: 100px;
-  line-height: 50px;
+  height: auto;
+  padding: 50px 0;
   background-color: $footer-bgColor;
   color: $footer-fontColor;
   div.footer-wrap {
@@ -17,6 +17,36 @@ footer.site-footer {
     }
     @media screen and (max-width: 600px){
       width: 100%;
+    }
+    div.social-box {
+      margin: 0 auto 30px;
+      div.fb-like-box {
+        margin: 5px;
+        display: inline-block;
+        background: white;
+        border-radius: 3px;
+        box-shadow: 0 0 1px 0 #999 inset;
+      }
+      div.twitter-box {
+        margin: 5px;
+        display: inline-block;
+        width: 420px;
+      }
+      @media screen and (max-width: 480px){
+        width: 90%;
+        div.fb-like-box,
+        div.twitter-box {
+          margin: 5px 0;
+          width: 100%;
+          span,
+          iframe {
+            width: 100%!important;
+          }
+        }
+      }
+    }
+    small {
+      display: block;
     }
   }
 }

@@ -3,10 +3,23 @@ article.post {
     header {
       display: none;
     }
+    div.social-button {
+      width: 80%;
+      max-width: 600px;
+      margin: 20px auto;
+      div {
+        display: inline-block;
+        margin: 0 15px 0 0;
+        &.fb-like {
+          opacity: 0.8;
+        }
+      }
+    }
     div.entry-content {
-      width: 90%;
       margin: 0 auto;
-      padding: 10px 10%;
+      border: 1px solid $brand;
+      border-width: 1px 0;
+      padding: 30px 3%;
       width: 80%;
       max-width: 600px;
       line-height: 1.8;
@@ -17,7 +30,7 @@ article.post {
         padding: 10px 0;
       }
       div.person {
-        padding: 30px 20px;
+        padding: 50px 20px 30px;
         float: right;
         &:before {
           content: "記 : ";

@@ -8,12 +8,11 @@ single: true
 </section>
 <article class="post">
   <div class="article-wrap clearfix">
-  {% include article.html %}
+    {% include post/sharing.html %}
+    {% include article.html %}
+    {% include post/sharing.html %}
   </div>
 </article>
-{% unless page.sharing == false %}
-<!--	{% include post/sharing.html %} -->
-{% endunless %}
 {% if site.disqus_short_name and page.comments == true %}
 <section id="comment">
     <h2 class="title">Comments</h2>
