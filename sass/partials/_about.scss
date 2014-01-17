@@ -45,6 +45,34 @@ div.main {
           }
         }
       }
+      dl {
+        padding: 20px;
+        &.history {
+          text-align: left;
+          line-height: 20px;
+          dt {
+            color: $gray;
+            float: left;
+            width: 35%;
+            a {
+              padding: 0 10px;
+            }
+          }
+          dd {
+            margin: 0 0 0 30%;
+          }
+          @media screen and (max-width: 640px){
+            dt {
+              line-height: 18px;
+              float: none;
+              width: 100%;
+            }
+            dd {
+              margin: 0 0 8px;
+            }
+          }
+        }
+      }
     }
   }
 }
