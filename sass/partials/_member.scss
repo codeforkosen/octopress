@@ -16,11 +16,11 @@ div.main {
       ul {
         display: block;
         margin: 0 0 0 40%;
-        text-align: center;
         li {
+          text-align: center;
           display: inline-block;
           width: 40%;
-          padding: 10px 3%;
+          padding: 10px 4%;
           img {
             width: 100%;
             max-width: 150px;
@@ -43,11 +43,12 @@ div.main {
           text-align: center;
         }
         ul {
-          margin: 20px 0;
+          margin: 20px 10%;
         }
       }
       @media screen and (max-width: 480px){
         ul {
+          margin: 20px 0;
           li {
             height: 100px;
             width: 80%;
