@@ -3,13 +3,23 @@ article.post {
     header {
       display: none;
     }
-    div.entry-content {
-      width: 90%;
-      margin: 0 auto;
-      padding: 10px 10%;
+    div.social-button {
       width: 80%;
       max-width: 600px;
-      line-height: 26px;
+      margin: 20px auto;
+      div {
+        display: inline-block;
+        margin: 0 15px 0 0;
+      }
+    }
+    div.entry-content {
+      margin: 0 auto;
+      border: 1px solid $brand;
+      border-width: 1px 0;
+      padding: 30px 3%;
+      width: 80%;
+      max-width: 600px;
+      line-height: 1.8;
       img {
         width: 100%;
       }
@@ -17,7 +27,7 @@ article.post {
         padding: 10px 0;
       }
       div.person {
-        padding: 30px 20px;
+        padding: 50px 20px 30px;
         float: right;
         &:before {
           content: "記 : ";
@@ -30,7 +40,9 @@ article.post {
           float: left;
         }
         h2 {
-          margin: 0 0 0 110px;
+          margin: 10px 0 0 110px;
+          font-size: $fontSize-normal;
+          line-height: 1.5;
           span {
             font-size: $fontSize-small;
             display: block;

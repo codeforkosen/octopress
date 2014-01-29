@@ -36,13 +36,15 @@ $fontFamily-serif:       Georgia, "Times New Roman", Times, serif;
 $fontFamily-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 $fontFamily-base:        $fontFamily-sans-serif;
 
-$fontSize-base:          14px;
-$fontSize-smaller:       ceil($fontSize-base * 0.70); //=> 10px
-$fontSize-small:         ceil($fontSize-base * 0.80); //=> 12px
-$fontSize-large:         ceil($fontSize-base * 1.15); //=> 16px
-$fontSize-larger:        ceil($fontSize-base * 1.25); //=> 18px
-$fontSize-huge:          ceil($fontSize-base * 1.40); //=> 20px
-$fontSize-huger:         ceil($fontSize-base * 1.70); //=> 24px
+$fontSize-base:          12px;
+$fontSize-tiny:          ceil($fontSize-base * 0.4); //=> 5px
+$fontSize-mini:          ceil($fontSize-base * 0.6); //=> 8px
+$fontSize-small:         ceil($fontSize-base * 0.8); //=> 10px
+$fontSize-normal:        ceil($fontSize-base * 1.0); //=> 12px
+$fontSize-large:         ceil($fontSize-base * 1.2); //=> 15px
+$fontSize-big:           ceil($fontSize-base * 1.4); //=> 17px
+$fontSize-huge:          ceil($fontSize-base * 1.6); //=> 19px
+$fontSize-giant:         ceil($fontSize-base * 1.8); //=> 22px
 
 
 // ----- Header ----- //

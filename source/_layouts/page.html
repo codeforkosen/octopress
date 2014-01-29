@@ -4,7 +4,7 @@ layout: default
 <section class="header-visual">
   <h1 class="page-title"><span>{{ page.title }}</span></h1>
 </section>
-<article class="page {{ page.title | downcase }} clearfix">
+<article class="page {{ page.title | replace: ' ','' | downcase }} clearfix">
   <div class="article-wrap">
     {{ content }}
   </div>

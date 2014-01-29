@@ -15,13 +15,13 @@ div.main {
         }
       }
       h1 {
-        padding: 20px 0 10px;
-        font-size: $fontSize-huge;
+        padding: 20px 0 5px;
+        font-size: $fontSize-big;
         font-weight: bold;
       }
       p {
         padding: 5px 0;
-        line-height: 24px;
+        line-height: 1.8;
       }
       ul {
         padding: 20px;
@@ -41,6 +41,34 @@ div.main {
             padding: 30px 5%;
             @media screen and (max-width: 640px){
               padding: 15px 5%;
+            }
+          }
+        }
+      }
+      dl {
+        padding: 20px;
+        &.history {
+          text-align: left;
+          line-height: 20px;
+          dt {
+            color: $gray;
+            float: left;
+            width: 35%;
+            a {
+              padding: 0 10px;
+            }
+          }
+          dd {
+            margin: 0 0 0 30%;
+          }
+          @media screen and (max-width: 640px){
+            dt {
+              line-height: 18px;
+              float: none;
+              width: 100%;
+            }
+            dd {
+              margin: 0 0 8px;
             }
           }
         }
