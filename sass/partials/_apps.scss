@@ -32,11 +32,11 @@ div.main {
               padding: 10px 0;
               font-size: $fontSize-normal;
             }
-            a {
+            & > a {
               font-size: $fontSize-normal;
               color: $brand-dark;
               &:before {
-                content: "[Data URL]";
+                content: "[App URL]";
                 padding: 0 8px 0 0;
               }
             }

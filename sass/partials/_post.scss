@@ -42,6 +42,42 @@ article.post {
         border: none;
         background: $brand;
       }
+      blockquote {
+        position: relative;
+        padding: 10px 10px 10px 55px;
+        color: #999;
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "“";
+          line-height: 80px;
+          font-size: 70px;
+          font-weight: bold;
+          font-family: times;
+          color: #ccc;
+        }
+        a:last-child {
+          display: block;
+          text-align: right;
+          padding: 0 10px;
+          &:before {
+            content: "[引用]　";
+          }
+        }
+      }
+      dl {
+        margin: 10px 0 0;
+        dt {
+          font-weight: bold;
+        }
+        dd {
+          padding: 2px 0 2px 10px;
+          margin: 5px 0 20px 10px;
+          border: 1px solid #ddd;
+          border-width: 0 0 0 5px;
+        }
+      }
       div.person {
         padding: 50px 20px 30px;
         float: right;
