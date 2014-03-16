@@ -3,11 +3,13 @@ div.main {
     section.branch {
       padding: 30px 0;
       > h1 {
-        width: 30%;
-        padding: 10px 5%;
-        float: left;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
         font-size: $fontSize-huge;
         color: $brand-dark;
+        border: 1px solid $brand-light;
+        border-width: 0 0 1px;
         &:before {
           content: "Branch: ";
           font-size: $fontSize-normal;
@@ -15,15 +17,16 @@ div.main {
       }
       ul {
         display: block;
-        margin: 0 0 0 40%;
+        margin: 20px 5%;
+        text-align: center;
         li {
           text-align: center;
           display: inline-block;
-          width: 40%;
-          padding: 10px 4%;
+          width: 26%;
+          padding: 10px 3%;
           img {
             width: 100%;
-            max-width: 150px;
+            max-width: 200px;
             border: 1px solid $gray-light;
           }
           h2 {
@@ -36,14 +39,10 @@ div.main {
         }
       }
       @media screen and (max-width: 640px){
-        > h1 {
-          float: none;
-          width: 100%;
-          padding: 10px 0;
-          text-align: center;
-        }
         ul {
-          margin: 20px 10%;
+          li {
+            width: 33%;
+          }
         }
       }
       @media screen and (max-width: 480px){
