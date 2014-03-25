@@ -44,11 +44,4 @@ Code for KOSEN の活動は始まったばかりなので、
 
 
 
-
-
-
-
-
-
-
 {% include _member/akashi/matsuda.html %}
