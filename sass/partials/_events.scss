@@ -85,6 +85,23 @@ div.main {
           p {
             padding: 5px 10px 5px 15px;
           }
+          table {
+            display: block;
+            padding: 10px 15px 20px;
+            thead {
+              background: #eee;
+              th {
+                padding: 5px 10px;
+                border-bottom: 1px solid #e5e5e5;
+              }
+            }
+            tbody {
+              td {
+                padding: 5px 10px;
+                border-bottom: 1px solid #e5e5e5;
+              }
+            }
+          }
           dl {
             padding: 5px 10px 5px 15px;
             line-height: 24px;
