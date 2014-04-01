@@ -1,6 +1,10 @@
 div.main {
   article.opendata {
     section {
+      h1 {
+        font-size: 18px;
+        padding: 10px 0;
+      }
       padding: 30px 0;
       ul {
         display: block;
@@ -32,7 +36,17 @@ div.main {
               padding: 10px 0;
               font-size: $fontSize-normal;
             }
-            a {
+            ul.opendata-list {
+              margin: 10px 10px 0;
+              li {
+                padding: 2px 0;
+                &:before {
+                  padding: 0 5px 0 0;
+                  content: "・";
+                }
+              }
+            }
+            > a {
               font-size: $fontSize-normal;
               color: $brand-dark;
               word-break: break-all;
