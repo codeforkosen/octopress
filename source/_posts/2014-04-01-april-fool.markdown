@@ -43,5 +43,15 @@ Code for KOSEN設立から82日となりました。メンバーとして新た�
 
 ![エイプリルフールネタ](/assets/images/blog/2014-04-01/april-fool/eyecatch.jpg)
 
+--------
+
+更新：14:30をもって、通常ページに戻しました。なお、午前中のサイトの様子は以下になります。
+
+
+![エイプリルフールSS](/assets/images/blog/2014-04-01/april-fool/screenshot.png)
+
+
+
+
 
 
