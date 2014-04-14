@@ -29,14 +29,25 @@ article.post {
       p {
         padding: 10px 0;
       }
+      p+p {
+        padding: 0 0 10px;
+      }
       > h1 {
+        padding: 15px 0 0;
         font-size: 16px;
         font-weight: bold;
+        &:before {
+          content: "■";
+          padding: 0 5px 0 0;
+        }
       }
       > h2 {
-        padding: 20px 0 0;
+        padding: 15px 0 0;
         font-size: 14px;
         font-weight: bold;
+      }
+      > h1+h2 {
+        padding: 0;
       }
       > hr {
         display: block;
