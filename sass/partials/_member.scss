@@ -1,7 +1,8 @@
 div.main {
   article.member {
+    padding: 35px 0 0;
     section.branch {
-      padding: 30px 0;
+      padding: 15px 0;
       > h1 {
         width: 100%;
         padding: 10px 0;
@@ -22,7 +23,7 @@ div.main {
         li {
           text-align: center;
           display: inline-block;
-          width: 26%;
+          width: 18%;
           padding: 10px 3%;
           img {
             width: 100%;
@@ -33,6 +34,8 @@ div.main {
             font-size: $fontSize-large;
             span {
               display: block;
+              overflow: hidden;
+              height: 20px;
               font-size: $fontSize-normal;
             }
           }
