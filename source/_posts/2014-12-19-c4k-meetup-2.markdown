@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Code for KOSEN 勉強会 #2 を開催します。"
+date: 2014-12-19 16:33:23 +0900
+comments: true
+categories: 
+---
+
+
+最近メッチャ寒いですね！  
+研究が屋外x夜間なので寒さに震える Branch:Akashi の松田です。
+
+さて、かなーーーーり期間が開いてしまいましたが、Code for KOSEN の第２回勉強会を開催したいと思います！
+明日です！ バタバタしてて連絡が遅くなりましたorz...
+
+
+![C4K勉強会#2](/assets/images/blog/2014-12-19/c4k-meetup-2/eyecatch.jpg)
+
+
+今回も主体は Branch:Akashi ですが、今回も Hangout OnAir で勉強会の様子を配信したいと考えています！
+まだ、参加の募集もしていますので是非ふるってご参加 or 視聴をおねがいしますね！
+
+
+[Doorkeepr で参加登録できます → http://codeforkosen.doorkeeper.jp/events/18166](http://codeforkosen.doorkeeper.jp/events/18166)
+
+
+Hangout OnAir の URL や勉強会の様子については、
+[C4K公式Twitter](http://twitter.com/codeforkosen) または、[C4K FacebookPage](https://www.facebook.com/codeforkosen) にてお伝えしますので、そちらもご確認下さいね！
+
+
+
+
+
+{% include _member/akashi/matsuda.html %}
