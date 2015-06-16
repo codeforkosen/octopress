@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: python | Code for KOSEN]]></title>
+  <link href="http://codeforkosen.org/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://codeforkosen.org/"/>
+  <updated>2015-06-16T21:22:31+09:00</updated>
+  <id>http://codeforkosen.org/</id>
+  <author>
+    <name><![CDATA[Code for KOSEN - Branch: Akashi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[第一回Python勉強会(akashi.py)を開催しました。]]></title>
+    <link href="http://codeforkosen.org/blog/2015-06-15/the-first-study-meeting-of-python-is-held/"/>
+    <updated>2015-06-15T22:25:00+09:00</updated>
+    <id>http://codeforkosen.org/blog/2015-06-15/the-first-study-meeting-of-python-is-held</id>
+    <content type="html"><![CDATA[<p>6/14日(日) 明石高専でPythonの勉強会を開催しました。</p>
+
+<h2>自己紹介</h2>
+
+<p>はじめまして、明石高専 専攻科1年の芝田 将です。
+普段はPyCon JP 2015のメディアスタッフや株式会社Be Proudでアルバイトを行なっています。</p>
+
+<p>2年ほど前にPythonに興味を持ち、それ以来ずっと趣味やアルバイト、研究等、あらゆるところで使用しています。
+Pythonに興味を持ってくれている後輩がいたので、akashi.pyというPythonの勉強会を立ち上げました。</p>
+
+<h2>Pythonについて</h2>
+
+<p>Pythonはそのシンプルな言語仕様により習得が容易で、海外ではプログラミングの教育に広く利用されています。
+また世界的にユーザ数が非常に多い事から数多くの便利なライブラリが開発されていて、Webアプリケーションの開発はもちろんデータ分析等の分野でも広く利用されています。</p>
+
+<p>但し、その一方で日本では比較的ユーザ数が少ないことから、Webアプリなどを開発しようと思うと少し英語の資料を読まないと難しい場合も多いです。
+英語の資料に抵抗のある人達にとってはこれは大きな問題で、その理由だけでPython以外の言語の勉強を始めるユーザもいるのではないかと思います。</p>
+
+<p>そこでこういった勉強会を通じて、Pythonを勉強していくきっかけになればいいなと思っています。</p>
+
+<h2>今回やったこと</h2>
+
+<p><img src="/assets/images/blog/2015-06-15/the-first-study-meeting-of-python-is-held/eyecatch.jpg" alt="勉強会の様子" /></p>
+
+<p>参加者の多くは本科2年生で、C言語のプログラミング経験がありました。
+そこで文法について軽く説明した後、さっそくペアプログラミング(2人で交代しながらコードを書いていく)を行いました。
+講義に使用した資料はgithubで公開しています。
+詳しくは資料を御覧ください。</p>
+
+<ul>
+<li><a href="https://github.com/c-bata/akashipy/blob/master/notebooks/python_grammer.ipynb">Python基礎文法チェック</a></li>
+<li><a href="https://github.com/c-bata/akashipy/blob/master/notebooks/tools_and_libraries.ipynb">便利なツールやライブラリ</a></li>
+</ul>
+
+
+<p>資料についてはこの内容を追加した方がいいなどの提案があれば、Issueを立ててくれると嬉しいです(Pull Request送って頂いても構いません)。</p>
+
+<p>勉強会ではペアプログラミングをベースにすすめましたが、これは上手く機能したかなと思っています。
+経験者も何人かいるため、その人達からツールの使い方やコードを書くときの考え方等を盗んでいってほしいですね。</p>
+
+<h2>今後</h2>
+
+<p>次回はさっそくFlaskを使ったWebアプリケーションの開発をやっていこうと思います。
+また第一回では参加できなかったメンバーも多かったので補講も開く予定です。
+興味のある方は新井先生や僕(<a href="&#x6d;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#109;&#101;&#49;&#53;&#48;&#x37;&#x40;&#x73;&#x2e;&#97;&#x6b;&#97;&#x73;&#104;&#105;&#46;&#x61;&#x63;&#x2e;&#x6a;&#112;">&#x6d;&#101;&#x31;&#x35;&#48;&#x37;&#x40;&#115;&#46;&#x61;&#107;&#97;&#115;&#104;&#105;&#x2e;&#x61;&#99;&#46;&#x6a;&#x70;</a>)に連絡をください。</p>
+
+<p>次回以降の勉強会の様子は参加してくれた学生に更新してもらおうと思います。
+お楽しみに！</p>
+
+<p>
+<div class="person">
+<img src="/assets/images/member/default.jpg">
+<h2>芝田 将<span>Masashi SHIBATA</span></h2>
+</div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>
