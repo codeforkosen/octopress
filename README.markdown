@@ -32,6 +32,9 @@ $ rake new_post["title"]
 これでひな形ができます。
 ちなみにtitleの部分は生成されるmarkdownファイルのファイル名に使用されるので英語で名前をつけるといいと思います。
 
+追記: zshでそのまま実行しようとすると展開されてうまくいかない:scream_cat:のでエスケープしてやるとよかったです `rake new_post\["title"\]`
+（http://qiita.com/kwgch/items/445a230b3ae9ec246fcb より）
+
 
 #### 記事を書く
 
