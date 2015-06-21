@@ -11,6 +11,8 @@ codeforkosen.github.ioの方は生成物をoctopressがpushしてるだけのリ
 ### 準備
 
 * `rbenv install 2.1.1`: このバージョンが必要らしい
+  - Mac OS: http://railsgirls.jp/install/#a-2-homebrewhttpbrewsh
+  - Linux: http://qiita.com/tsubu-mustard/items/3f818bf9831a4a934c5a
 * `gem install bundler`
 * `rbenv rehash`
 * `bundle install`
