@@ -10,7 +10,7 @@ codeforkosen.github.ioの方は生成物をoctopressがpushしてるだけのリ
 
 ### 準備
 
-* `rbenv install 2.1.1`: このバージョンが必要らしい
+* `rbenv install 2.1.1`: このバージョンのRubyが必要らしい
   - Mac OS: http://railsgirls.jp/install/#a-2-homebrewhttpbrewsh
   - Linux: http://qiita.com/kazoo04/items/7056704efee66f323ddb
 * `gem install bundler`
