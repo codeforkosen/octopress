@@ -32,3 +32,5 @@ pythonに興味があって、ちょうどその頃に勉強会を開いてく�
 今回作ったもの
 https://github.com/ToyoshimaHidenori/akashipy
 
+{% include _member/akashi/fukuoka.html %}
+{% include _member/akashi/toyoshima.html %}
